@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded',function(){
         messages.push("Include @ or .");
 
     }
-    if (passwordlength < 8){
+    if (password.length < 8){
         isValid = false;
     messages.push("Your password should be atleast 8 characters long");
     }
